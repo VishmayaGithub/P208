@@ -23,7 +23,7 @@ def musicWindow():
     selectLabel = Label(window, text="Select Song", bg="LightSkyBlue" ,font=("Calibri",10))    
     selectLabel.place(x=5,y=3)
 
-    listBox = Listbox(window,height=10,width=35,activestyle="dotbox",font=("Calibri",13),bd=1,bg="LightSkyBlue")
+    listBox = Listbox(window,height=10,width=33,activestyle="dotbox",font=("Calibri",13),bd=1,bg="LightSkyBlue")
     listBox.place(x=10,y=24)
 
     scrollbar1= Scrollbar(listBox)
